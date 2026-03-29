@@ -1,4 +1,9 @@
 -----BEGIN PUBLIC KEY-----
+<<<<<<< HEAD
 MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE29fvqfgixonQh9LFpOdZLyYiPNSb
 x0LDNXzi+OeB5Obo86wtb5oT9tFpFNp7X23o1/XdW16Y7z2sLoaFRaQ58w==
+=======
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyD8xEvmLPHBDuLGFvjeNXeipZYmH
+zEg9aEiKfUIkJ1eYKbhaN1HMzHEUKdtpPC/YiW69xSKqXncXprqapTpOCQ==
+>>>>>>> bebc8c2 (fix cosign key)
 -----END PUBLIC KEY-----
