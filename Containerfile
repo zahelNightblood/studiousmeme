@@ -76,6 +76,7 @@ FROM ghcr.io/ublue-os/silverblue-main:latest@sha256:f8d5fd28aa7bb0ed9e17e98e4f9f
 ##   - Files from @ublue-os/artwork at /oci/artwork
 ##   - Files from @ublue-os/brew at /oci/brew
 ## Scripts are run in numerical order (10-build.sh, 20-example.sh, etc.)
+COPY --from=ctx /oci/brew /
 RUN --mount=type=cache,dst=/var/cache \
     --mount=type=cache,dst=/var/log \
     --mount=type=tmpfs,dst=/tmp \
